@@ -35,30 +35,33 @@
   <body>
     <div class="container">
       <h1>Steam Quick Links</h1>
-      <div class="row">
-        <form action="https://www.google.com.br/search" class="form-inline">
-          <div class="form-group">
-            <label for="q">Google:</label>
-            <input type="text" class="form-control" name="q" id="q">
-            <button class="btn btn-lg btn-primary btn-block" style="float:left" type="submit">Search</button>
-          </div>
-        </form>
-      </div>
-      <div class="card clear-fix">
-        <div class="card-header">
-          <h2>Warframe</h2>
+      <form action="https://www.google.com.br/search" class="form-inline" style="margin-bottom:2rem;">
+        <div class="form-group" style="width:100%">
+          <label for="q" class="col-md-1">Google:</label>
+          <input type="text" class="form-control col-md-8" name="q" id="q" autofocus />
+          <div class="col-md-1"></div>
+          <button class="btn btn-lg btn-primary btn-block col-md-2" type="submit" style="font-size:1rem;">Search</button>
         </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item"><a href="https://warframe.wikia.com/wiki/WARFRAME_Wiki">Warframe Wiki</a></li>
-          <li class="list-group-item"><a href="https://deathsnacks.com/wf/">Warframe (PC) Trackers</a></li>
-          <li class="list-group-item"><a href="https://hub.warframestat.us/">Warframe Cetus Cycle</a></li>
-          <li class="list-group-item"><a href="http://wf.poedb.tw/us/item.php?c=Fish">Warframe Fishing</a></li>
-        </ul>
+      </form>
+      <div id="cards-container">
+        <div class="card">
+          <div class="card-header">
+            <h2>Warframe</h2>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><a href="https://warframe.wikia.com/wiki/WARFRAME_Wiki">Warframe Wiki</a></li>
+            <li class="list-group-item"><a href="https://deathsnacks.com/wf/">Warframe (PC) Trackers</a></li>
+            <li class="list-group-item"><a href="https://hub.warframestat.us/">Warframe Cetus Cycle</a></li>
+            <li class="list-group-item"><a href="http://wf.poedb.tw/us/item.php?c=Fish">Warframe Fishing</a></li>
+          </ul>
+        </div>
       </div>
 
     </div> <!-- /container -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
   </body>
 </html>

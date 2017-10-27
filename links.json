@@ -1,19 +1,24 @@
 {
   "Warframe": [
     {
-      "Warframe Wiki": "https://warframe.wikia.com/wiki/WARFRAME_Wiki"
+      "Name":"Warframe Wiki",
+      "Link":"https://warframe.wikia.com/wiki/WARFRAME_Wiki"
     },
     {
-      "Warframe (PC) Trackers": "https://deathsnacks.com/wf/"
+      "Name":"Warframe (PC) Trackers",
+      "Link":"https://deathsnacks.com/wf/"
     },
     {
-      "Warframe Cetus Cycle": "https://hub.warframestat.us/"
+      "Name":"Warframe Cetus Cycle",
+      "Link":"https://hub.warframestat.us/"
     },
     {
-      "Warframe Fishing": "http://wf.poedb.tw/us/item.php?c=Fish"
+      "Name":"Warframe Fishing",
+      "Link":"http://wf.poedb.tw/us/item.php?c=Fish"
     },
     {
-      "Warframe Reddit": "https://reddit.com/r/Warframe/"
+      "Name":"Warframe Reddit",
+      "Link":"https://reddit.com/r/Warframe/"
     }
   ]
 }

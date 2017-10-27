@@ -3,7 +3,6 @@ var linksGroup = null;
 $(function() {
   $.getJSON("links.json", function(data) {
     linksGroup = data; 
-    linksGroup = sortOnKeys(linksGroup);
 
     updateCards();
   });
@@ -22,9 +21,9 @@ function updateCards(){
       cardHTML += header + "<ul class=\"list-group list-group-flush\">";
       lines = "";
 
-      $.each(val, function(itemName, itemLink) {
-          lines += generateCardItem(itemLink, itemName);
-      });
+      for (var i = 0; i < val.length; i++) {
+          lines += generateCardItem(val[i]['Link'], val[i]['Name']);
+      };
       cardHTML += lines + "</ul></div>";
 
       $("#cards-container").append(cardHTML);

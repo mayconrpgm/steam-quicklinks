@@ -1,30 +1,42 @@
 {
+  "Monster Hunter World": [
+    {
+      "Name": "Meta Builds",
+      "Link": "https://www.reddit.com/r/MonsterHunterMeta/comments/edc674/iceborne_meta_builds_compilation_safijiiva_edition/"
+    }
+  ],
+  "Terraria": [
+    {
+      "Name": "Terraria Wiki",
+      "Link": "https://terraria.gamepedia.com/Terraria_Wiki"
+    }
+  ],
   "Warframe": [
     {
-      "Name":"Warframe Wiki",
-      "Link":"https://warframe.wikia.com/wiki/WARFRAME_Wiki"
+      "Name": "Warframe Wiki",
+      "Link": "https://warframe.wikia.com/wiki/WARFRAME_Wiki"
     },
     {
-      "Name":"Warframe (PC) Trackers",
-      "Link":"https://deathsnacks.com/wf/"
+      "Name": "Warframe (PC) Trackers",
+      "Link": "https://deathsnacks.com/wf/"
     },
     {
-      "Name":"Warframe Cetus Cycle",
-      "Link":"https://hub.warframestat.us/"
+      "Name": "Warframe Cetus Cycle",
+      "Link": "https://hub.warframestat.us/"
     },
     {
-      "Name":"Warframe Fishing",
-      "Link":"http://wf.poedb.tw/us/item.php?c=Fish"
+      "Name": "Warframe Fishing",
+      "Link": "http://wf.poedb.tw/us/item.php?c=Fish"
     },
     {
-      "Name":"Warframe Reddit",
-      "Link":"https://reddit.com/r/Warframe/"
+      "Name": "Warframe Reddit",
+      "Link": "https://reddit.com/r/Warframe/"
     }
   ],
   "Divinity Original Sin 2": [
     {
-      "Name":"DOS2 Reddit",
-      "Link":"https://www.reddit.com/r/DivinityOriginalSin/"
+      "Name": "DOS2 Reddit",
+      "Link": "https://www.reddit.com/r/DivinityOriginalSin/"
     }
   ]
 }

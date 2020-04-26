@@ -12,7 +12,7 @@ function updateCards(){
   $("#cards-container").empty();
 
   $.each(linksGroup, function(key, val) {
-    cardHTML = "<div class=\"card\">";
+    cardHTML = "<br/><div class=\"card\">";
     header = "";
     
     header = generateCardHeader(key);
